@@ -1,0 +1,37 @@
+.todo-item{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(87, 87, 245);
+    padding: 10px 50px;
+    margin: 20px 10px;
+    border-radius: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.todo-item p {
+    display: inline-block;
+    margin-left: 10px;
+}
+.todo-item button{
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 2.3rem;
+}
+.todo-item input{
+    border: none;
+    border-radius: 20px;
+    font-size: 2.8rem;
+}
+.task-completed {
+    text-decoration: line-through;
+    background-color: rgb(255, 88, 88);
+}
+.todo-list{
+    padding: 10px 20px 10px 10px;
+    margin: 20px;
+    text-align: start;
+}

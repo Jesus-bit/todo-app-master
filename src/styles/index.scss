@@ -1,0 +1,41 @@
+html{
+  font-size: 56.2%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 2rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  text-align: center;
+}
+.input-new-task{
+  border-radius: 20px;
+  font-size: 2.2rem;
+  padding: 20px;
+  width: 70%;
+}
+.button-add, .button-clear{
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 2.6rem;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  padding: 8px;
+}
+.iconify{
+  color: #ef0006;
+}
